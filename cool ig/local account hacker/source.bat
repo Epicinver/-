@@ -4,7 +4,7 @@ title local account hacker (by arran :] )
 :verify
 cls
 set /p verification=Please enter "hello" to launch the local acc hacker: 
-if /I not "%verification%"=="hello" exit
+if /I not "%verification%" not == "hello" exit
 
 :menu
 cls
