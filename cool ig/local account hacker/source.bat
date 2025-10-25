@@ -1,11 +1,6 @@
 @echo off
 title local account hacker (by arran :] )
 
-:verify
-cls
-set /p verification=Please enter "hello" to launch the local acc hacker: 
-if /I not "%verification%"=="hello" goto menu
-
 :menu
 cls
 echo ((((()))))
